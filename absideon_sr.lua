@@ -1,18 +1,5 @@
 local ffi = require("ffi")
 
-local function run_once()
-    client.color_log(46, 204, 113, "[Public release]")
-    client.color_log(236, 240, 241, "Due to xnx 'leaking' the lua. I've decided to create this git to give proper access to everyone.\nNote that this wasn't private and was given to anyone who asked.\nMy guess the reason why xnx released the lua on gs forum and quoted it as a leak was because he got upset when I told him I wouldn't copy paste off nigahook.\n")
-
-    client.color_log(236, 240, 241, "[Changelog]")
-    client.color_log(230, 126, 34, " ~ Cleanup (removing a bunch of useless functions that were not in use)")
-    client.color_log(46, 204, 113, " + Added a pasted Opposite resolver, works about 80% of the time as most people use opposite. (s/o to rave1337)\n\n")
-    client.color_log(236, 240, 241, "I've also created templates for feature requests & issues on git. GLHF semiraging cunts. <3")
-
-
-end
-run_once()
-
 local function normalize(angle)
     while angle > 180 do
         angle = angle - 360
@@ -381,7 +368,7 @@ local function dynfieldofview()
         elseif ui.get(dynFOV) == "High" then
             ui.set(menu.rage_fov, math.min(90, math.max(1, 3800 / distance * 55 * 0.01)))
         elseif ui.get(dynFOV) == "Maximum" then
-            ui.set(menu.rage_fov, math.min(180, math.max(1, 3800 / distance * 85 * 0.01)))
+            ui.set(menu.rage_fov, math.min(180, math.max(1, 3800 / distance * 1 * 0.01)))
         end
     end
 end
