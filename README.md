@@ -61,3 +61,5 @@ Features:
           - Override limit on peek (changes from 4 to the sv_maxusrcmdprocessticks on peek)
 
 If I forgot anything, lemme know. :)
+
+And no, not everything was made by me.
