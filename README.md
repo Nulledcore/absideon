@@ -38,7 +38,7 @@ Features:
      - Opposite (pasted with a little modification)
      
 5. Target switch delay
-        - Includes a customizable cap (1-1000ms)
+     - Includes a customizable cap (1-1000ms)
         
 6. Force autowall (duh)
 
