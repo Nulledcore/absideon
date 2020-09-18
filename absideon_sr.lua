@@ -368,7 +368,7 @@ local function dynfieldofview()
         elseif ui.get(dynFOV) == "High" then
             ui.set(menu.rage_fov, math.min(90, math.max(1, 3800 / distance * 55 * 0.01)))
         elseif ui.get(dynFOV) == "Maximum" then
-            ui.set(menu.rage_fov, math.min(180, math.max(1, 3800 / distance * 1 * 0.01)))
+            ui.set(menu.rage_fov, math.min(180, math.max(1, 3800 / distance * 85 * 0.01)))
         end
     end
 end
