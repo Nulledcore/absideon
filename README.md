@@ -14,9 +14,9 @@ Features:
 1. Dynamic FOV
    - Low (3800 / distanceinfeet * 7 * 0.01)
      - Includes a customizable cap (1-16)
-   - Medium (3800 / distance * 25 * 0.01)
-   - High (3800 / distance * 55 * 0.01)
-   - Maximum (3800 / distance * 85 * 0.01)
+   - Medium (3800 / distanceinfeet * 25 * 0.01)
+   - High (3800 / distanceinfeet * 55 * 0.01)
+   - Maximum (3800 / distanceinfeet * 85 * 0.01)
    
 2. Dynamic autowall
    - On visible
